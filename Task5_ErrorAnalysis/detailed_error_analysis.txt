@@ -1,0 +1,50 @@
+DETAILED ERROR ANALYSIS
+================================================================================
+
+
+============================================================
+CONFUSION: China -> Iceland (1 errors)
+============================================================
+
+Example:
+  Description: The photo captures the iconic quartzite sandstone pillars of Zhangjiajie National Forest Park in Wulingyuan China often called the real life Avatar Mountains It represents mythical and awe inspiring beauty shown in the contrast between the towering rock formations and the vibrant greenery The cloudy...
+  True: China
+  Predicted: Iceland
+  Potential confusion: mountains (Switzerland, France, Italy)
+
+============================================================
+CONFUSION: China -> Spain (1 errors)
+============================================================
+
+Example:
+  Description: Li River in Guangxi, southern China, offering 85 kilometers of incredible scenery perfect for river cruises through stunning landscapes....
+  True: China
+  Predicted: Spain
+
+============================================================
+CONFUSION: Egypt -> Japan (1 errors)
+============================================================
+
+Example:
+  Description: A camel caravan crossing the desert; I chose it because the scene looks peaceful and unique....
+  True: Egypt
+  Predicted: Japan
+
+============================================================
+CONFUSION: France -> Japan (1 errors)
+============================================================
+
+Example:
+  Description: Calm countryside atmposphere where sheeps grazing peacefully in the large grassy field in the foreground while the abbey centered in the middle "...
+  True: France
+  Predicted: Japan
+
+============================================================
+CONFUSION: Greece -> Italy (1 errors)
+============================================================
+
+Example:
+  Description: "A colorful, narrow Mediterranean street lined with outdoor café tables, blue awnings. I chose this place because it looks peaceful, warm, and inviting, a perfect spot to relax and explore."...
+  True: Greece
+  Predicted: Italy
+  Potential confusion: Mediterranean (multiple countries)

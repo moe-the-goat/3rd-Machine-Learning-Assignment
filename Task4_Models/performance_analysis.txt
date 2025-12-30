@@ -1,0 +1,32 @@
+
+PERFORMANCE ANALYSIS
+====================
+
+Best Performing Model: kNN (k=1)
+Best Macro F1 Score: 0.7940
+
+Comparison with Baseline:
+- kNN (k=1) Macro F1: 0.7940
+- kNN (k=3) Macro F1: 0.7901
+- Best Model Macro F1: 0.7940
+- Relative Improvement: +0.00%
+
+Why the proposed models performed similarly:
+
+1. Random Forest Benefits:
+   - Ensemble method that reduces overfitting
+   - Can capture non-linear relationships in TF-IDF space
+   - Feature importance can be analyzed
+   - Handles class imbalance with balanced weights
+
+2. SVM Benefits:
+   - Effective in high-dimensional spaces (TF-IDF has many features)
+   - Works well when classes are separable in feature space
+   - Regularization parameter C controls model complexity
+   - RBF kernel can model complex decision boundaries
+
+Key Observations:
+- Text classification tasks often benefit from linear models due to high dimensionality
+- Class imbalance (ranging from 22 to 64 samples) affects smaller classes
+- Some countries have distinctive vocabulary (landmarks, cultural terms)
+- Similar tourist destinations may cause confusion (European countries, island nations)

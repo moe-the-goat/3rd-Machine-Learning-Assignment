@@ -1,0 +1,6 @@
+Rows: 948
+Columns: 14
+Missing Country: 0
+Missing Description: 0
+Unique countries: 127
+Description length (words): mean=25.23, median=22.00, max=166

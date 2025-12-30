@@ -1,0 +1,73 @@
+
+================================================================================
+                    TASK 5: ERROR ANALYSIS SUMMARY REPORT
+================================================================================
+
+OVERALL PERFORMANCE:
+--------------------
+Total Test Samples: 107
+Correct Predictions: 85
+Incorrect Predictions: 22
+Accuracy: 0.7944 (79.4%)
+
+MOST PROBLEMATIC CLASSES (highest error rates):
+-----------------------------------------------
+True_Country
+Turkey         3
+Switzerland    3
+USA            3
+Spain          2
+Iceland        2
+
+MOST COMMON CONFUSIONS:
+-----------------------
+True_Country  Predicted_Country
+China         Iceland              1
+              Spain                1
+Egypt         Japan                1
+France        Japan                1
+Greece        Italy                1
+              Turkey               1
+Iceland       Japan                1
+              Switzerland          1
+Italy         Saudi Arabia         1
+              Spain                1
+
+KEY FINDINGS:
+-------------
+1. Country pairs with similar landscapes are frequently confused
+   (e.g., Mediterranean countries, island nations)
+
+2. Descriptions with generic tourist vocabulary are harder to classify
+   (e.g., "beautiful", "famous landmark")
+
+3. Short descriptions provide insufficient context for accurate prediction
+
+4. Historical/architectural sites cause confusion across countries with
+   similar heritage (e.g., ancient ruins, religious buildings)
+
+5. Class imbalance affects minority classes more severely
+
+RECOMMENDATIONS FOR IMPROVEMENT:
+--------------------------------
+1. Feature Engineering:
+   - Add entity recognition for landmark names
+   - Include character-level features for non-English words
+   - Add topic modeling features
+
+2. Data Enhancement:
+   - Collect more samples for underrepresented countries
+   - Ensure descriptions contain country-specific details
+   - Add structured metadata (landmarks, regions)
+
+3. Model Improvements:
+   - Try ensemble methods combining multiple classifiers
+   - Experiment with transformer-based models (BERT, etc.)
+   - Use data augmentation techniques
+
+4. Evaluation Strategy:
+   - Use hierarchical classification (region -> country)
+   - Consider multi-label setup for ambiguous cases
+   - Weight samples by description quality
+
+================================================================================
