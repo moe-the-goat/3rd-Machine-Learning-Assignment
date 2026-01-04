@@ -5,33 +5,33 @@
 
 OVERALL PERFORMANCE:
 --------------------
-Total Test Samples: 107
-Correct Predictions: 85
-Incorrect Predictions: 22
-Accuracy: 0.7944 (79.4%)
+Total Test Samples: 124
+Correct Predictions: 100
+Incorrect Predictions: 24
+Accuracy: 0.8065 (80.6%)
 
 MOST PROBLEMATIC CLASSES (highest error rates):
 -----------------------------------------------
 True_Country
-Turkey         3
-Switzerland    3
-USA            3
-Spain          2
-Iceland        2
+USA          5
+Italy        3
+Palestine    2
+China        2
+Spain        2
 
 MOST COMMON CONFUSIONS:
 -----------------------
-True_Country  Predicted_Country
-China         Iceland              1
-              Spain                1
-Egypt         Japan                1
-France        Japan                1
-Greece        Italy                1
-              Turkey               1
-Iceland       Japan                1
-              Switzerland          1
-Italy         Saudi Arabia         1
-              Spain                1
+True_Country  Predicted_Country   
+Brazil        Japan                   1
+Canada        Italy                   1
+China         Iceland                 1
+              United Arab Emirates    1
+Egypt         Brazil                  1
+Greece        Turkey                  1
+Iceland       Italy                   1
+              Switzerland             1
+Italy         Japan                   1
+              Spain                   1
 
 KEY FINDINGS:
 -------------

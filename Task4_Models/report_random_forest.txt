@@ -1,31 +1,36 @@
 RANDOM FOREST CLASSIFIER RESULTS
 ============================================================
 
-Best Parameters: {'class_weight': 'balanced', 'max_depth': 30, 'min_samples_split': 2, 'n_estimators': 200}
-Best CV Score: 0.8167
+Best Parameters: {'class_weight': 'balanced', 'max_depth': 30, 'min_samples_split': 5, 'n_estimators': 200}
+Best CV Score: 0.7606
 
-Test Accuracy: 0.7944
-Test Macro F1: 0.7890
-Test Weighted F1: 0.7939
+Test Accuracy: 0.8306
+Test Macro F1: 0.8070
+Test Weighted F1: 0.8206
 
 Classification Report:
-              precision    recall  f1-score   support
+                      precision    recall  f1-score   support
 
-       China     0.7500    0.7500    0.7500         4
-       Egypt     1.0000    1.0000    1.0000         6
-      France     1.0000    0.9000    0.9474        10
-      Greece     1.0000    0.7143    0.8333         7
-     Iceland     0.5000    0.5000    0.5000         4
-       Italy     0.7273    0.6667    0.6957        12
-       Japan     0.6190    1.0000    0.7647        13
-    Maldives     0.7778    1.0000    0.8750         7
-   Palestine     1.0000    1.0000    1.0000         8
-Saudi Arabia     1.0000    0.8000    0.8889         5
-       Spain     0.8889    0.8000    0.8421        10
- Switzerland     0.5556    0.5556    0.5556         9
-      Turkey     0.8000    0.6667    0.7273         6
-         USA     1.0000    0.5000    0.6667         6
+              Brazil     0.6000    0.7500    0.6667         4
+              Canada     0.7500    0.7500    0.7500         4
+               China     1.0000    0.5000    0.6667         4
+               Egypt     0.8571    1.0000    0.9231         6
+              France     1.0000    1.0000    1.0000         9
+              Greece     0.7778    1.0000    0.8750         7
+             Iceland     1.0000    0.7500    0.8571         4
+           Indonesia     0.7500    1.0000    0.8571         3
+               Italy     1.0000    0.6667    0.8000        12
+               Japan     0.7222    1.0000    0.8387        13
+              Jordan     1.0000    1.0000    1.0000         4
+            Maldives     0.7500    0.8571    0.8000         7
+           Palestine     1.0000    0.7500    0.8571         8
+        Saudi Arabia     0.8000    0.8000    0.8000         5
+               Spain     1.0000    0.8000    0.8889        10
+         Switzerland     0.7273    0.8889    0.8000         9
+              Turkey     1.0000    1.0000    1.0000         6
+                 USA     1.0000    0.1667    0.2857         6
+United Arab Emirates     0.5000    1.0000    0.6667         3
 
-    accuracy                         0.7944       107
-   macro avg     0.8299    0.7752    0.7890       107
-weighted avg     0.8216    0.7944    0.7939       107
+            accuracy                         0.8306       124
+           macro avg     0.8544    0.8252    0.8070       124
+        weighted avg     0.8703    0.8306    0.8206       124

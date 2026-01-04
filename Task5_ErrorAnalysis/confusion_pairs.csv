@@ -1,23 +1,25 @@
 True_Country,Predicted_Country,count
+Brazil,Japan,1
+Canada,Italy,1
 China,Iceland,1
-China,Spain,1
-Egypt,Japan,1
-France,Japan,1
-Greece,Italy,1
+China,United Arab Emirates,1
+Egypt,Brazil,1
 Greece,Turkey,1
-Iceland,Japan,1
+Iceland,Italy,1
 Iceland,Switzerland,1
-Italy,Saudi Arabia,1
+Italy,Japan,1
 Italy,Spain,1
-Saudi Arabia,China,1
+Italy,USA,1
+Maldives,Greece,1
+Palestine,Saudi Arabia,1
+Palestine,Turkey,1
+Saudi Arabia,Japan,1
+Spain,Brazil,1
 Spain,Japan,1
-Spain,Switzerland,1
-Switzerland,Italy,1
 Switzerland,Japan,1
-Switzerland,Turkey,1
-Turkey,Italy,1
-Turkey,Japan,1
-Turkey,Switzerland,1
+USA,Canada,1
 USA,Egypt,1
+USA,Indonesia,1
 USA,Italy,1
-USA,Japan,1
+USA,Spain,1
+United Arab Emirates,Japan,1

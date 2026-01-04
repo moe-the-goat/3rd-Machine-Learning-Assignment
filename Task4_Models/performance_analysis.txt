@@ -2,16 +2,15 @@
 PERFORMANCE ANALYSIS
 ====================
 
-Best Performing Model: kNN (k=1)
-Best Macro F1 Score: 0.7940
+Best Performing Model: Random Forest
+Best Macro F1 Score: 0.8070
 
 Comparison with Baseline:
-- kNN (k=1) Macro F1: 0.7940
-- kNN (k=3) Macro F1: 0.7901
-- Best Model Macro F1: 0.7940
-- Relative Improvement: +0.00%
+- Baseline (best kNN) Macro F1: 0.7311
+- Best Model Macro F1: 0.8070
+- Relative Improvement: +10.38%
 
-Why the proposed models performed similarly:
+Why the proposed models performed better:
 
 1. Random Forest Benefits:
    - Ensemble method that reduces overfitting
@@ -27,6 +26,6 @@ Why the proposed models performed similarly:
 
 Key Observations:
 - Text classification tasks often benefit from linear models due to high dimensionality
-- Class imbalance (ranging from 22 to 64 samples) affects smaller classes
+- Class imbalance (varying sample sizes per country) affects smaller classes
 - Some countries have distinctive vocabulary (landmarks, cultural terms)
 - Similar tourist destinations may cause confusion (European countries, island nations)

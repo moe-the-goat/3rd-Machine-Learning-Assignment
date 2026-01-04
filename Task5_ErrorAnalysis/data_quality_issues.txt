@@ -1,6 +1,7 @@
 DATA QUALITY ISSUES IDENTIFIED
 ============================================================
 
+• Short descriptions (<10 words): 5 errors
 • Generic descriptions: 2 errors contain generic words
 
 

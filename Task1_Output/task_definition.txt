@@ -24,28 +24,33 @@ MOTIVATION & CREATIVITY:
 DATASET CHARACTERISTICS:
 --------------------------------------------------------------------------------
 Total samples in original dataset: 948
-Total samples after filtering (≥20 per country): 533
-Number of target classes: 14
+Total samples after filtering (≥15 per country): 620
+Number of target classes: 19
 
 Class Distribution:
 Country
-Japan           63
-Italy           59
-Spain           49
-France          47
-Switzerland     43
-Palestine       42
-Maldives        37
-Greece          36
-Turkey          31
-Egypt           30
-USA             28
-Saudi Arabia    24
-China           22
-Iceland         22
+Japan                   63
+Italy                   59
+Spain                   49
+France                  47
+Switzerland             43
+Palestine               42
+Maldives                37
+Greece                  36
+Turkey                  31
+Egypt                   30
+USA                     28
+Saudi Arabia            24
+China                   22
+Iceland                 22
+Brazil                  19
+Jordan                  19
+Canada                  18
+Indonesia               16
+United Arab Emirates    15
 
 Feature: Description (text)
-- Mean word count: 25.05
+- Mean word count: 25.09
 - Min word count: 1
 - Max word count: 165
 

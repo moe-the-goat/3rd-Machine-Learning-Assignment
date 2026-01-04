@@ -3,6 +3,24 @@ DETAILED ERROR ANALYSIS
 
 
 ============================================================
+CONFUSION: Brazil -> Japan (1 errors)
+============================================================
+
+Example:
+  Description: The sunset colors, the city below and hiking to ride teleferik make this scene feel exciting and full of adventure....
+  True: Brazil
+  Predicted: Japan
+
+============================================================
+CONFUSION: Canada -> Italy (1 errors)
+============================================================
+
+Example:
+  Description: A scenic view of a hotel resort with an inviting pool (or coastal?resort vibe) and tranquil surroundings Ñ nice for a relaxing vacation....
+  True: Canada
+  Predicted: Italy
+
+============================================================
 CONFUSION: China -> Iceland (1 errors)
 ============================================================
 
@@ -13,38 +31,19 @@ Example:
   Potential confusion: mountains (Switzerland, France, Italy)
 
 ============================================================
-CONFUSION: China -> Spain (1 errors)
+CONFUSION: China -> United Arab Emirates (1 errors)
 ============================================================
 
 Example:
-  Description: Li River in Guangxi, southern China, offering 85 kilometers of incredible scenery perfect for river cruises through stunning landscapes....
+  Description: A night view of Shanghai’s skyline with colorful lights, featuring the bright pink Oriental Pearl Tower beside modern skyscrapers....
   True: China
-  Predicted: Spain
+  Predicted: United Arab Emirates
 
 ============================================================
-CONFUSION: Egypt -> Japan (1 errors)
+CONFUSION: Egypt -> Brazil (1 errors)
 ============================================================
 
 Example:
-  Description: A camel caravan crossing the desert; I chose it because the scene looks peaceful and unique....
+  Description: https://www.egypttoursportal.com/images/2017/11/Cairo-City-Egypt-Tours-Portal-1-e1511901150793.jpg...
   True: Egypt
-  Predicted: Japan
-
-============================================================
-CONFUSION: France -> Japan (1 errors)
-============================================================
-
-Example:
-  Description: Calm countryside atmposphere where sheeps grazing peacefully in the large grassy field in the foreground while the abbey centered in the middle "...
-  True: France
-  Predicted: Japan
-
-============================================================
-CONFUSION: Greece -> Italy (1 errors)
-============================================================
-
-Example:
-  Description: "A colorful, narrow Mediterranean street lined with outdoor café tables, blue awnings. I chose this place because it looks peaceful, warm, and inviting, a perfect spot to relax and explore."...
-  True: Greece
-  Predicted: Italy
-  Potential confusion: Mediterranean (multiple countries)
+  Predicted: Brazil
