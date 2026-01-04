@@ -9,34 +9,41 @@ FULL DATASET:
   Missing Country: 0
   Missing Description: 0
 
-FILTERED DATASET (≥20 samples per country):
-  Total rows: 539
-  Number of classes: 14
+FILTERED DATASET (≥15 samples per country):
+  Total rows: 656
+  Number of classes: 21
 
 DESCRIPTION LENGTH STATISTICS (filtered):
-  Mean words: 24.90
-  Median words: 22.00
-  Std words: 19.43
+  Mean words: 25.08
+  Median words: 23.00
+  Std words: 18.41
   Min words: 1
   Max words: 165
 
 CLASS DISTRIBUTION (filtered):
-  Japan: 64 (11.9%)
-  Italy: 60 (11.1%)
-  Spain: 49 (9.1%)
-  France: 47 (8.7%)
-  Switzerland: 45 (8.3%)
-  Palestine: 42 (7.8%)
-  Maldives: 37 (6.9%)
-  Greece: 36 (6.7%)
-  Turkey: 32 (5.9%)
-  Egypt: 30 (5.6%)
-  Usa: 28 (5.2%)
-  Saudi Arabia: 24 (4.5%)
-  China: 23 (4.3%)
-  Iceland: 22 (4.1%)
+  Japan: 64 (9.8%)
+  Italy: 60 (9.1%)
+  Spain: 49 (7.5%)
+  France: 47 (7.2%)
+  Switzerland: 45 (6.9%)
+  Palestine: 42 (6.4%)
+  Maldives: 37 (5.6%)
+  Greece: 36 (5.5%)
+  Turkey: 32 (4.9%)
+  Egypt: 30 (4.6%)
+  Usa: 28 (4.3%)
+  Saudi Arabia: 24 (3.7%)
+  China: 23 (3.5%)
+  Iceland: 22 (3.4%)
+  Brazil: 19 (2.9%)
+  Jordan: 19 (2.9%)
+  Canada: 18 (2.7%)
+  Indonesia: 16 (2.4%)
+  United Kingdom: 15 (2.3%)
+  United States: 15 (2.3%)
+  United Arab Emirates: 15 (2.3%)
 
 CLASS IMBALANCE ANALYSIS:
   Largest class: Japan (64 samples)
-  Smallest class: Iceland (22 samples)
-  Imbalance ratio: 2.91:1
+  Smallest class: United Kingdom (15 samples)
+  Imbalance ratio: 4.27:1
