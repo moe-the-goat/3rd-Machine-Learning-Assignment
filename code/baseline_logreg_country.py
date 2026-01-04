@@ -18,7 +18,7 @@ df = pd.read_csv(DATA_PATH, encoding="utf-8-sig", dtype="string")
 df = df[["Description", "Country"]].dropna()
 
 country_counts = df["Country"].value_counts()
-valid_countries = country_counts[country_counts >= 20].index
+valid_countries = country_counts[country_counts >= 15].index
 df = df[df["Country"].isin(valid_countries)].copy()
 
 print("Rows after filtering:", len(df))

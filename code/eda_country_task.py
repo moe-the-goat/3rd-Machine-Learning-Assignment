@@ -55,8 +55,8 @@ country_counts.to_csv(
     encoding="utf-8-sig"
 )
 
-# Filter countries with >= 20 samples (for modeling)
-filtered_countries = country_counts[country_counts >= 20]
+# Filter countries with >= 15 samples (for modeling)
+filtered_countries = country_counts[country_counts >= 15]
 filtered_countries.to_csv(
     os.path.join(OUT_DIR, "country_counts_filtered_ge20.csv"),
     header=["count"],
@@ -98,4 +98,4 @@ plt.close()
 print("✅ EDA complete.")
 print("Saved to:", OUT_DIR)
 print("Rows:", len(df), "| Unique countries:", country_counts.shape[0])
-print("Countries with >=20 samples:", int((country_counts >= 20).sum()))
+print("Countries with >=15 samples:", int((country_counts >= 15).sum()))

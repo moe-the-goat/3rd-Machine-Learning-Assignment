@@ -59,7 +59,7 @@ def generate_summary_statistics(df, df_filtered, country_counts, output_dir):
         f"  Missing Country: {int(missing_country)}",
         f"  Missing Description: {int(missing_desc)}",
         "",
-        "FILTERED DATASET (≥20 samples per country):",
+        f"FILTERED DATASET (≥{MIN_SAMPLES} samples per country):",
         f"  Total rows: {len(df_filtered)}",
         f"  Number of classes: {df_filtered['Country_display'].nunique()}",
         "",

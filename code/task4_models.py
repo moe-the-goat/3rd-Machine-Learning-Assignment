@@ -295,20 +295,20 @@ def plot_confusion_matrix(cm, labels, title, output_path):
 
 def plot_model_comparison(results_list, baseline_results, output_path):
     """Create comparison plot of all models."""
-    # Combine baseline and proposed models
     all_results = []
     
-    # Add baseline results
-    all_results.append({
-        'Model': 'kNN (k=1)',
-        'Accuracy': 0.7963,  # From previous results
-        'Macro F1': 0.7940
-    })
-    all_results.append({
-        'Model': 'kNN (k=3)',
-        'Accuracy': 0.7870,
-        'Macro F1': 0.7901
-    })
+    # Load baseline results dynamically from CSV
+    baseline_csv = BASE_DIR / "Task3_Baseline" / "baseline_results.csv"
+    if baseline_csv.exists():
+        baseline_df = pd.read_csv(baseline_csv)
+        for _, row in baseline_df.iterrows():
+            all_results.append({
+                'Model': row['model'],
+                'Accuracy': row['accuracy'],
+                'Macro F1': row['macro_f1']
+            })
+    else:
+        print("  ⚠️ Warning: baseline_results.csv not found")
     
     # Add proposed models
     for r in results_list:
@@ -415,8 +415,7 @@ Best Performing Model: {best_model}
 Best Macro F1 Score: {best_f1:.4f}
 
 Comparison with Baseline:
-- kNN (k=1) Macro F1: 0.7940
-- kNN (k=3) Macro F1: 0.7901
+- Baseline (best kNN) Macro F1: {baseline_f1:.4f}
 - Best Model Macro F1: {best_f1:.4f}
 - Relative Improvement: {improvement:+.2f}%
 
@@ -436,7 +435,7 @@ Why the proposed models performed {'better' if improvement > 0 else 'similarly'}
 
 Key Observations:
 - Text classification tasks often benefit from linear models due to high dimensionality
-- Class imbalance (ranging from 22 to 64 samples) affects smaller classes
+- Class imbalance (varying sample sizes per country) affects smaller classes
 - Some countries have distinctive vocabulary (landmarks, cultural terms)
 - Similar tourist destinations may cause confusion (European countries, island nations)
 """

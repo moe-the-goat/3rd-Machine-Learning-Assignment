@@ -26,10 +26,10 @@ CM_PATH = os.path.join(OUTPUT_DIR, "confusion_matrix_knn_k3.png")
 df = pd.read_csv(DATASET_PATH)
 
 # ===============================
-# Filter countries (>= 20 samples)
+# Filter countries (>= 15 samples)
 # ===============================
 country_counts = df["Country"].value_counts()
-valid_countries = country_counts[country_counts >= 20].index
+valid_countries = country_counts[country_counts >= 15].index
 df = df[df["Country"].isin(valid_countries)].reset_index(drop=True)
 
 # ===============================

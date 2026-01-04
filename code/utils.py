@@ -11,7 +11,7 @@ BASE_DIR = SCRIPT_DIR.parent
 DATA_PATH = BASE_DIR / "dataset_from_students_only_mode_v1.csv"
 CLEAN_DATA_PATH = BASE_DIR / "EDA_Output" / "dataset_cleaned.csv"
 RANDOM_STATE = 42
-MIN_SAMPLES = 20
+MIN_SAMPLES = 15
 
 
 def load_raw_data():

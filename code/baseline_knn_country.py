@@ -25,10 +25,10 @@ df = pd.read_csv(DATASET_PATH)
 print("Original shape:", df.shape)
 
 # ===============================
-# FILTER COUNTRIES (>= 20 samples)
+# FILTER COUNTRIES (>= 15 samples)
 # ===============================
 country_counts = df["Country"].value_counts()
-valid_countries = country_counts[country_counts >= 20].index
+valid_countries = country_counts[country_counts >= 15].index
 
 df = df[df["Country"].isin(valid_countries)].reset_index(drop=True)
 
