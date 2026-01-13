@@ -1,0 +1,18 @@
+{
+  "model": "TextCNN",
+  "vocab_size": 1659,
+  "embedding_dim": 300,
+  "kernel_sizes": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "num_filters": 128,
+  "test_accuracy": 0.8145161290322581,
+  "test_macro_f1": 0.7825506072874494,
+  "test_weighted_f1": 0.808073476702509,
+  "best_val_f1": 0.833348522822207,
+  "epochs_trained": 32,
+  "training_time_minutes": 0.78
+}

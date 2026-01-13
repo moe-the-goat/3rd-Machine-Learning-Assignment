@@ -1,0 +1,33 @@
+k-NN Baseline (k=1)
+============================================================
+
+Accuracy: 0.7419
+Macro F1: 0.7125
+Weighted F1: 0.7319
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+              Brazil     0.6000    0.7500    0.6667         4
+              Canada     0.6667    0.5000    0.5714         4
+               China     1.0000    0.2500    0.4000         4
+               Egypt     0.6250    0.8333    0.7143         6
+              France     0.6000    1.0000    0.7500         9
+              Greece     1.0000    0.8571    0.9231         7
+             Iceland     0.4286    0.7500    0.5455         4
+           Indonesia     0.6000    1.0000    0.7500         3
+               Italy     0.8750    0.5833    0.7000        12
+               Japan     0.7857    0.8462    0.8148        13
+              Jordan     1.0000    1.0000    1.0000         4
+            Maldives     0.8333    0.7143    0.7692         7
+           Palestine     1.0000    0.6250    0.7692         8
+        Saudi Arabia     0.8333    1.0000    0.9091         5
+               Spain     0.8000    0.8000    0.8000        10
+         Switzerland     0.8750    0.7778    0.8235         9
+              Turkey     0.6250    0.8333    0.7143         6
+                 USA     0.5000    0.1667    0.2500         6
+United Arab Emirates     0.6667    0.6667    0.6667         3
+
+            accuracy                         0.7419       124
+           macro avg     0.7534    0.7344    0.7125       124
+        weighted avg     0.7748    0.7419    0.7319       124

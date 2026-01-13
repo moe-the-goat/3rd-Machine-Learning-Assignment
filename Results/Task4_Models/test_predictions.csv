@@ -1,0 +1,125 @@
+true_label,predicted_label,correct
+Switzerland,Switzerland,True
+Indonesia,Indonesia,True
+Palestine,Palestine,True
+Brazil,Brazil,True
+USA,Canada,False
+Maldives,Maldives,True
+Egypt,Egypt,True
+Japan,Japan,True
+Japan,Japan,True
+Italy,Italy,True
+Egypt,United Arab Emirates,False
+Italy,Italy,True
+Italy,Japan,False
+Brazil,Brazil,True
+United Arab Emirates,United Arab Emirates,True
+Italy,Italy,True
+Greece,Greece,True
+Maldives,Maldives,True
+Greece,Greece,True
+Switzerland,Switzerland,True
+Italy,Italy,True
+Palestine,Saudi Arabia,False
+Turkey,Turkey,True
+Japan,Japan,True
+France,France,True
+France,France,True
+France,France,True
+Greece,Greece,True
+Palestine,Palestine,True
+United Arab Emirates,United Arab Emirates,True
+Switzerland,Switzerland,True
+Egypt,Egypt,True
+Maldives,Maldives,True
+Greece,Greece,True
+Saudi Arabia,United Arab Emirates,False
+Egypt,Egypt,True
+Canada,Maldives,False
+USA,USA,True
+Palestine,Saudi Arabia,False
+Japan,Japan,True
+Spain,Spain,True
+France,France,True
+Iceland,Iceland,True
+USA,USA,True
+Japan,Japan,True
+USA,Maldives,False
+Italy,Spain,False
+Jordan,Jordan,True
+Palestine,Palestine,True
+Spain,Spain,True
+Switzerland,Switzerland,True
+Jordan,Jordan,True
+Saudi Arabia,Saudi Arabia,True
+Japan,Japan,True
+Japan,Japan,True
+Japan,Japan,True
+Spain,Spain,True
+Maldives,Maldives,True
+Spain,Spain,True
+France,France,True
+Palestine,Saudi Arabia,False
+Palestine,Palestine,True
+Brazil,Brazil,True
+Palestine,Palestine,True
+Saudi Arabia,Saudi Arabia,True
+Indonesia,Indonesia,True
+Indonesia,Indonesia,True
+Switzerland,Switzerland,True
+Italy,Italy,True
+China,Japan,False
+Turkey,Turkey,True
+Iceland,Iceland,True
+Switzerland,Switzerland,True
+Turkey,Turkey,True
+Spain,Spain,True
+Japan,Japan,True
+Japan,Japan,True
+Turkey,Turkey,True
+China,China,True
+Italy,Italy,True
+Switzerland,Switzerland,True
+France,France,True
+Maldives,Maldives,True
+Canada,Canada,True
+Turkey,Turkey,True
+USA,Maldives,False
+China,China,True
+France,France,True
+Jordan,Jordan,True
+Spain,Spain,True
+Italy,Switzerland,False
+France,France,True
+Spain,Spain,True
+Iceland,Iceland,True
+Spain,Spain,True
+France,France,True
+Brazil,Turkey,False
+Italy,Italy,True
+Maldives,Maldives,True
+United Arab Emirates,Saudi Arabia,False
+Turkey,Turkey,True
+Switzerland,Switzerland,True
+USA,Canada,False
+Canada,Canada,True
+Greece,Greece,True
+Egypt,Egypt,True
+Japan,Japan,True
+Italy,Italy,True
+Saudi Arabia,Saudi Arabia,True
+Switzerland,Switzerland,True
+Spain,Spain,True
+Italy,Italy,True
+Greece,Greece,True
+Egypt,Egypt,True
+Iceland,Iceland,True
+Spain,Spain,True
+Maldives,Maldives,True
+Canada,Canada,True
+China,China,True
+Japan,Japan,True
+Saudi Arabia,Saudi Arabia,True
+Jordan,Jordan,True
+Greece,Greece,True
+Japan,Japan,True

@@ -1,0 +1,44 @@
+FINE-TUNED TextCNN RESULTS
+============================================================
+
+Vocabulary Size: 1659
+Embedding Dimension: 300
+Kernel Sizes: [2, 3, 4, 5]
+Filters per Kernel: 128
+Max Sequence Length: 150
+Dropout Rate: 0.4
+Learning Rate: 0.0005
+Batch Size: 8
+Epochs Trained: 32
+Total Parameters: 1,173,559
+
+Test Accuracy: 0.8145
+Test Macro F1: 0.7826
+Test Weighted F1: 0.8081
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+              Brazil     0.4444    1.0000    0.6154         4
+              Canada     0.6000    0.7500    0.6667         4
+               China     1.0000    0.2500    0.4000         4
+               Egypt     0.8333    0.8333    0.8333         6
+              France     1.0000    1.0000    1.0000         9
+              Greece     0.8571    0.8571    0.8571         7
+             Iceland     0.6667    1.0000    0.8000         4
+           Indonesia     1.0000    1.0000    1.0000         3
+               Italy     1.0000    0.7500    0.8571        12
+               Japan     0.9167    0.8462    0.8800        13
+              Jordan     1.0000    1.0000    1.0000         4
+            Maldives     0.6667    0.8571    0.7500         7
+           Palestine     1.0000    0.8750    0.9333         8
+        Saudi Arabia     0.8000    0.8000    0.8000         5
+               Spain     0.8750    0.7000    0.7778        10
+         Switzerland     0.8889    0.8889    0.8889         9
+              Turkey     0.8571    1.0000    0.9231         6
+                 USA     1.0000    0.1667    0.2857         6
+United Arab Emirates     0.4286    1.0000    0.6000         3
+
+            accuracy                         0.8145       124
+           macro avg     0.8334    0.8197    0.7826       124
+        weighted avg     0.8678    0.8145    0.8081       124

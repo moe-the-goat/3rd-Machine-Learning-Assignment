@@ -1,0 +1,23 @@
+
+================================================================================
+                    ERROR ANALYSIS SUMMARY
+================================================================================
+
+RANDOM FOREST:
+  Accuracy: 0.8065
+  Macro F1: 0.7758
+  Errors: 24
+
+TRANSFORMER (DistilBERT):
+  Accuracy: 0.8710
+  Macro F1: 0.8636
+  Errors: 16
+
+COMPARISON:
+  Accuracy improvement (Transformer vs RF): +6.45%
+  Macro F1 improvement: +8.77%
+  Error reduction: 8 fewer errors
+
+CONCLUSION:
+  Transformer outperforms Random Forest
+  Both models struggle with similar country pairs (see confusion_pairs files)

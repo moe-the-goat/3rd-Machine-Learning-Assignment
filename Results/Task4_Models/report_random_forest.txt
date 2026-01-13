@@ -1,0 +1,36 @@
+RANDOM FOREST RESULTS
+==================================================
+
+Best Parameters: {'class_weight': 'balanced', 'max_depth': 30, 'min_samples_split': 5, 'n_estimators': 200}
+CV Score: 0.7627
+
+Test Accuracy: 0.8065
+Test Macro F1: 0.7758
+Test Weighted F1: 0.7913
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+              Brazil     0.7500    0.7500    0.7500         4
+              Canada     0.5000    0.7500    0.6000         4
+               China     1.0000    0.2500    0.4000         4
+               Egypt     0.8571    1.0000    0.9231         6
+              France     0.9000    1.0000    0.9474         9
+              Greece     0.7778    1.0000    0.8750         7
+             Iceland     0.7500    0.7500    0.7500         4
+           Indonesia     0.7500    1.0000    0.8571         3
+               Italy     0.8000    0.6667    0.7273        12
+               Japan     0.7647    1.0000    0.8667        13
+              Jordan     1.0000    1.0000    1.0000         4
+            Maldives     0.8571    0.8571    0.8571         7
+           Palestine     1.0000    0.7500    0.8571         8
+        Saudi Arabia     0.8000    0.8000    0.8000         5
+               Spain     1.0000    0.7000    0.8235        10
+         Switzerland     0.6667    0.8889    0.7619         9
+              Turkey     1.0000    0.8333    0.9091         6
+                 USA     1.0000    0.1667    0.2857         6
+United Arab Emirates     0.6000    1.0000    0.7500         3
+
+            accuracy                         0.8065       124
+           macro avg     0.8302    0.7980    0.7758       124
+        weighted avg     0.8410    0.8065    0.7913       124

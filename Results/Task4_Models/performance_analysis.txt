@@ -1,0 +1,16 @@
+
+MODEL ANALYSIS
+==============
+
+Random Forest Performance:
+- Test Accuracy: 0.8306
+- Test Macro F1: 0.8070
+- Best Parameters: {'class_weight': 'balanced', 'max_depth': 30, 'min_samples_split': 5, 'n_estimators': 200}
+
+Why Random Forest works well for this task:
+1. Ensemble of trees reduces overfitting on small dataset
+2. Handles high-dimensional TF-IDF features effectively
+3. Built-in feature importance for interpretability
+4. Balanced class weights handle the imbalanced classes
+
+Note: Transformer model (task6_transformer.py) provides deep learning comparison.

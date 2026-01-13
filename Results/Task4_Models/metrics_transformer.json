@@ -1,0 +1,8 @@
+{
+  "model": "distilbert-base-uncased",
+  "test_accuracy": 0.8709677419354839,
+  "test_macro_f1": 0.8635800871950456,
+  "test_weighted_f1": 0.8710842060693503,
+  "epochs_trained": 7,
+  "training_time_minutes": 10.13
+}

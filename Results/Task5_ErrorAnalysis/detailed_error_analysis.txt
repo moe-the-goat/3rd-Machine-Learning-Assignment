@@ -1,0 +1,50 @@
+DETAILED ERROR ANALYSIS
+================================================================================
+
+
+============================================================
+CONFUSION: Brazil -> Japan (1 errors)
+============================================================
+
+Example:
+  Description: The sunset colors, the city below and hiking to ride teleferik make this scene feel exciting and full of adventure....
+  True: Brazil
+  Predicted: Japan
+
+============================================================
+CONFUSION: Canada -> Italy (1 errors)
+============================================================
+
+Example:
+  Description: A scenic view of a hotel resort with an inviting pool (or coastal?resort vibe) and tranquil surroundings Ñ nice for a relaxing vacation....
+  True: Canada
+  Predicted: Italy
+
+============================================================
+CONFUSION: USA -> Spain (1 errors)
+============================================================
+
+Example:
+  Description: The Empire State Building and NYC skyline bathed in golden sunset light....
+  True: USA
+  Predicted: Spain
+
+============================================================
+CONFUSION: USA -> Italy (1 errors)
+============================================================
+
+Example:
+  Description: A bright coastal view of Waikiki Beach with turquoise water, golden sand, and the Diamond Head crater in the background, chosen for its lively atmosphere and beautiful ocean scenery....
+  True: USA
+  Predicted: Italy
+  Potential confusion: beach (common to many countries)
+
+============================================================
+CONFUSION: USA -> Indonesia (1 errors)
+============================================================
+
+Example:
+  Description: A golden sandy beach with turquoise waters and lush green hills under bright sunny skies....
+  True: USA
+  Predicted: Indonesia
+  Potential confusion: beach (common to many countries)

@@ -1,0 +1,25 @@
+True_Country,Predicted_Country,count
+Brazil,Japan,1
+Canada,Italy,1
+USA,Spain,1
+USA,Italy,1
+USA,Indonesia,1
+USA,Egypt,1
+USA,Canada,1
+Switzerland,Japan,1
+Spain,Japan,1
+Spain,Brazil,1
+Saudi Arabia,Japan,1
+Palestine,Turkey,1
+Palestine,Saudi Arabia,1
+Maldives,Greece,1
+Italy,USA,1
+Italy,Spain,1
+Italy,Japan,1
+Iceland,Switzerland,1
+Iceland,Italy,1
+Greece,Turkey,1
+Egypt,Brazil,1
+China,United Arab Emirates,1
+China,Iceland,1
+United Arab Emirates,Japan,1

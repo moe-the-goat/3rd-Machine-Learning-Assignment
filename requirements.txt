@@ -1,0 +1,25 @@
+# Core ML Dependencies
+pandas>=2.0.0
+numpy<2.0,>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.2
+joblib>=1.3.0
+
+# Deep Learning Dependencies (for Task 4 - Transformer model)
+# WORKING VERSIONS (tested on Windows):
+torch==2.1.0
+transformers==4.30.0
+
+# Installation instructions:
+# 1. Install core dependencies:
+#    pip install -r requirements.txt
+#
+# 2. For transformer model, install PyTorch:
+#    pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+#
+# 3. Then install transformers:
+#    pip install transformers==4.30.0
+#
+# Note: If you only want to run Tasks 1-3 (baselines), you can skip torch and transformers.
+# Task 4 will skip the Transformer model if these are not installed (Random Forest will still run).

@@ -1,0 +1,79 @@
+
+================================================================================
+                    MACHINE LEARNING TASK DEFINITION
+================================================================================
+
+TASK: Multi-Class Text Classification - Country Prediction from Description
+--------------------------------------------------------------------------------
+
+OBJECTIVE:
+Given a textual description of a travel/tourism scene, predict the country 
+where the scene is located.
+
+MOTIVATION & CREATIVITY:
+1. Real-world Application: Useful for travel content tagging, recommendation 
+   systems, and automatic geo-tagging of travel blogs.
+2. NLP Challenge: Requires understanding cultural, geographical, and 
+   architectural cues embedded in text.
+3. Cross-cultural Complexity: Similar landscapes exist across countries 
+   (beaches, mountains, historic sites), making pure keyword matching insufficient.
+4. Imbalanced Classes: Some countries have more samples than others, 
+   requiring careful evaluation metrics.
+
+--------------------------------------------------------------------------------
+DATASET CHARACTERISTICS:
+--------------------------------------------------------------------------------
+Total samples in original dataset: 948
+Total samples after filtering (≥15 per country): 620
+Number of target classes: 19
+
+Class Distribution:
+Country
+Japan                   63
+Italy                   59
+Spain                   49
+France                  47
+Switzerland             43
+Palestine               42
+Maldives                37
+Greece                  36
+Turkey                  31
+Egypt                   30
+USA                     28
+Saudi Arabia            24
+China                   22
+Iceland                 22
+Brazil                  19
+Jordan                  19
+Canada                  18
+Indonesia               16
+United Arab Emirates    15
+
+Feature: Description (text)
+- Mean word count: 25.09
+- Min word count: 1
+- Max word count: 165
+
+--------------------------------------------------------------------------------
+EVALUATION STRATEGY:
+--------------------------------------------------------------------------------
+1. Train/Test Split: 80/20 stratified split (random_state=42)
+2. Primary Metrics:
+   - Accuracy: Proportion of correct predictions
+   - Macro F1-Score: Unweighted mean of F1 across classes (handles imbalance)
+3. Secondary Analysis:
+   - Per-class precision, recall, F1
+   - Confusion matrix for error pattern analysis
+
+--------------------------------------------------------------------------------
+MODELS TO EVALUATE:
+--------------------------------------------------------------------------------
+1. Baseline: k-Nearest Neighbors (k=1, k=3) with TF-IDF + cosine distance
+2. Proposed Model 1: Random Forest with TF-IDF features
+3. Proposed Model 2: Support Vector Machine (SVM) with TF-IDF features
+
+Hyperparameter Tuning:
+- Random Forest: n_estimators (50, 100, 200, 300), max_depth (10, 20, 30, None)
+- SVM: C (0.1, 1, 10, 100), kernel (linear, rbf)
+
+================================================================================

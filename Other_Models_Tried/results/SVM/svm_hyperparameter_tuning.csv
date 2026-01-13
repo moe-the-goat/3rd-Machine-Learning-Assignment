@@ -1,0 +1,17 @@
+params,mean_test_score,std_test_score,rank_test_score
+"{'C': 10.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear'}",0.7337117929867645,0.027860725050478253,1
+"{'C': 10.0, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'linear'}",0.7337117929867645,0.027860725050478253,1
+"{'C': 100.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear'}",0.7337117929867645,0.027860725050478253,1
+"{'C': 100.0, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'linear'}",0.7337117929867645,0.027860725050478253,1
+"{'C': 1.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear'}",0.7289349045791877,0.017392090907748355,5
+"{'C': 1.0, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'linear'}",0.7289349045791877,0.017392090907748355,5
+"{'C': 10.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}",0.6783288609531074,0.0326161698853318,7
+"{'C': 100.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}",0.6783288609531074,0.0326161698853318,7
+"{'C': 1.0, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}",0.6595907382815329,0.038117610007554106,9
+"{'C': 100.0, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf'}",0.07686935112109829,0.04819449015533455,10
+"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear'}",0.057655649451489786,0.033423611462539325,11
+"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'linear'}",0.057655649451489786,0.033423611462539325,11
+"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf'}",0.057655649451489786,0.033423611462539325,11
+"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}",0.05472030796349246,0.034548033992534685,14
+"{'C': 10.0, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf'}",0.04086849715795153,0.027261626007916765,15
+"{'C': 1.0, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf'}",0.03219896284393935,0.03203957141216014,16
